@@ -1,15 +1,12 @@
-<br />
-<p align="center">
-  <div align="center">
-    <img height="150" src="https://cdn.discordapp.com/attachments/1118733891738554480/1147830303457550416/Screenshot_120-removebg-preview.png" alt="blanja" border="0"/>
-  </div>
-  <h3 align="center">Blanja</h3>
+<div align="center">
+  <h1>Sharelocks Homes.<h1>
+</div>
   <p align="center">
-    <a href="https://github.com/alridho12/peeworld_be"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/alridho12/cms-blogplatform-fe"><strong>Explore the docs »</strong></a>
     <br />
-    <a href="https://peeworld-fe-4b1w.vercel.app/">View Demo</a>
+  <a href="https://cms-blogplatform-fe.vercel.app/">View Demo</a>
     ·
-    <a href="https://peeworld-be.vercel.app/portofolio/">Api Demo</a>
+    <a href="https://cms-blogplatform-backend.vercel.app/">Api Demo</a>
   </p>
 </p>
 
@@ -26,13 +23,29 @@
 
 # About The Project
 
-Peworld is a jobseeker website project that aims to assist Software Developers in finding jobs that match their skills.
+Technical Test.<br>
+Nama Proyek: Blogging Platform
+Aplikasi web ini akan memungkinkan pengguna untuk:
+Membuat dan mengelola blog pribadi.
+Menulis dan menerbitkan artikel baru.
+Melihat daftar artikel.
+Membaca artikel secara lengkap.
+Mengedit dan menghapus artikel.
 
-On this website, job seekers can create a profile, upload their experience and portfolio. Peworld also offers a feature to connect job seekers with companies that are looking for candidates with the required skills.
+Backend | Buat API endpoint untuk:
+Mendapatkan daftar artikel (GET /api/articles)
+Membaca artikel secara lengkap (GET /api/articles/:id)
+Membuat artikel baru (POST /api/articles)
+Mengedit artikel (PUT /api/articles/:id)
+Menghapus artikel (DELETE /api/articles/:id)
 
-One of the outstanding features of Peworld is the ability to identify the skills and interests of job seekers based on their abilities. With this information, recruiters can directly connect through the hire feature.
-
-## Built With
+Frontend | Buat fitur untuk:
+Menampilkan daftar artikel.
+Menampilkan artikel secara lengkap.
+Form untuk membuat artikel baru.
+Form untuk mengedit artikel.
+Navigasi antara halaman utama (daftar artikel) dan halaman detail/edit artikel.
+Buatlah UI/UX sebaik mungkin.
 
 These are the libraries and service used for building this backend API
 
@@ -47,10 +60,10 @@ These are the libraries and service used for building this backend API
 1. Clone this repository
 
 ```sh
-git clone https://github.com/alridho12/peeworld_be
+git clone https://github.com/alridho12/cms-blogplatform-backend
 ```
 
-2. Change directory to peeworld_be
+2. Change directory to cms-blogplatform-backend
 
 ```sh
 cd peeworld_be
@@ -102,10 +115,10 @@ API endpoint list are also available as published postman documentation
 
 ## Related Project
 
-:rocket: [`Backend Hiring App`](https://github.com/alridho12/peeworld_be)
+:rocket: [`Backend CMS`](cms-blogplatform-backend)
 
-:rocket: [`Frontend Hiring App`](https://github.com/alridho12/peeworld_fe)
+:rocket: [`Frontend CMS`](https://github.com/alridho12/cms-blogplatform-fe)
 
-:rocket: [`Demo Hiring App`](https://peeworld-fe-4b1w.vercel.app/)
+:rocket: [`Demo Sharelock Holmes`](https://peeworld-fe-4b1w.vercel.app/)
 
-Project link : [https://github.com/alridho12/peeworld_be](https://github.com/alridho12/peeworld_be))
+Project link : [https://github.com/alridho12/cms-blogplatform-backend](https://github.com/alridho12/cms-blogplatform-backend))
